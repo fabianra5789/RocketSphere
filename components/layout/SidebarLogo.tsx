@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { BsTwitter } from "react-icons/bs";
+import { BsPinAngleFill } from "react-icons/bs";
 
 const SidebarLogo = () => {
   const router = useRouter();
@@ -20,7 +20,7 @@ const SidebarLogo = () => {
         cursor-pointer
     "
     >
-      <BsTwitter size={28} color="white" />
+      <BsPinAngleFill size={28} color="white" />
     </div>
   );
 };
