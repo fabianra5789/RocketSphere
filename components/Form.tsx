@@ -95,10 +95,10 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
       ) : (
         <div className="py-8">
           <h1 className="text-white text-2xl text-center mb-4 font-bold">
-            Welcome to Rocket
+            Bienvenido a Rocket
           </h1>
           <div className="flex flex-row items-center justify-center gap-4">
-            <Button label="Ingresa" onClick={loginModal.onOpen} />
+            <Button label="Ingresar" onClick={loginModal.onOpen} />
             <Button
               label="Registrarse"
               onClick={registerModal.onOpen}
